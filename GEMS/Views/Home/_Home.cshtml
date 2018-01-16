@@ -1,32 +1,40 @@
 ﻿<!-- ko with: home -->
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+<img class="panaram" src="~/Content/stripe.png" />
+<div class="gems jumbotron">
+    <h1>Guardian Energy Management Solutions</h1>
+    <p class="mission">Stop Wasting Energy. Start Saving Money.™</p>
 </div>
-<div class="row">
-    <div class="col-md-4">
-        <h2>Your information</h2>
-        <p>This section shows how you can call ASP.NET Web API to get the user details.</p>
-        <p data-bind="text: myHometown"></p>
-       
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=273732">Learn more &raquo;</a></p>
-    </div>
-
-    <div class="col-md-4">
-        <h2>Getting started</h2>
+<div class="row main">
+    <a href="@Url.Action("Index", "Test")">
+        <div class="col-md-4 mainsection">
+            <h2>Products</h2>
+            <p>Manage current products and inventory. Centralize data from diffrent sources.</p>
+            <ul>
+                <li>Data Entry</li>
+                <li>Imports</li>
+                <li>Statistics</li>
+            </ul>
+            <i class="fa fa-tag fa-2x"></i>
+        </div>
+    </a>
+    <div class="col-md-4 mainsection" data-bind="click:nav_proj">
+        <h2>Projects</h2>
         <p>
-            ASP.NET Single Page Application (SPA) helps you build applications that include significant client-side interactions using HTML, CSS, and JavaScript.
-            It's now easier than ever before to getting started writing highly interactive web applications.
+            Search and manage projects. Find information about
         </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=273732">Learn more &raquo;</a></p>
+        <ul>
+            <li>Jobs</li>
+            <li>Contacts</li>
+            <li>Events</li>
+            <li>Calendar</li>
+        </ul>
+        <i class="fa fa-briefcase fa-2x"></i>
     </div>
 
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    <div class="col-md-4 mainsection" data-bind="click:nav_pros">
+        <h2>Proposals</h2>
+        <p>You can easily calculate a plan based on the right mix of features and price. Tailor orders for your clients.</p>
+        <i class="fa fa-money fa-2x"></i>
     </div>
 </div>
-
 <!-- /ko -->

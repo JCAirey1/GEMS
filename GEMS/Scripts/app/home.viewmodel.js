@@ -3,6 +3,18 @@
 
     self.myHometown = ko.observable("");
 
+    self.nav_prod = function (i) {
+        console.log(i);
+    }
+
+    self.nav_proj = function (i) {
+        alert('Not Implemented!')
+    }
+
+    self.nav_pros = function (i) {
+        alert('Not Implemented!')
+    }
+
     Sammy(function () {
         this.get('#home', function () {
             // Make a call to the protected Web API by passing in a Bearer Authorization Header

@@ -1,0 +1,62 @@
+﻿footer p {
+    float:left;
+    font-size:10px;
+}
+footer img {
+    float:right;
+}
+.panaram {
+    width:1140px;
+}
+.gems.jumbotron  {
+    border-radius:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.mission {
+    text-align:center;
+    margin-top:20px;
+    font-size:20px;
+}
+.logo {
+    width: 70px;
+    position: relative;
+    top: -7px;
+}
+div.row.main ul {
+    display:inline-block;
+}
+div.row.main h2 {
+    text-align:center;
+}
+div.row.main i.fa {
+    position: relative;
+    opacity: .7;
+    font-size: 45px;
+}
+div.row.main i.fa.fa-tag {
+    left:100px;
+    top:-10px;
+}
+div.row.main i.fa.fa-briefcase {
+    left:100px;
+    top:-10px;
+}
+div.row.main i.fa-money {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+div.row.main i.fa:hover {
+    color: green;
+}
+.mainsection {
+    border:1px solid white;
+    opacity:.75;
+    height:180px;
+}
+.mainsection:hover {
+    border:1px solid #eeeeee;
+    opacity:1;
+    cursor:pointer;
+} 
